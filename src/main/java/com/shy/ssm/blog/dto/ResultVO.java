@@ -1,9 +1,9 @@
-package com.liuyanzhao.ssm.blog.dto;
+package com.shy.ssm.blog.dto;
 
 import lombok.Data;
 
 /**
- * @author 言曌
+ * @author shy
  * @date 2017/11/30 下午7:04
  */
 

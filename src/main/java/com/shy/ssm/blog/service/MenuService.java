@@ -1,11 +1,11 @@
-package com.liuyanzhao.ssm.blog.service;
+package com.shy.ssm.blog.service;
 
-import com.liuyanzhao.ssm.blog.entity.Menu;
+import com.shy.ssm.blog.entity.Menu;
 
 import java.util.List;
 
  /**
-  * @author liuyanzhao
+  * @author shy
   */
  public interface MenuService {
      /**

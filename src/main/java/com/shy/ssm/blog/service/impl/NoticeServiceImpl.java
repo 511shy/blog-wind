@@ -1,8 +1,8 @@
-package com.liuyanzhao.ssm.blog.service.impl;
+package com.shy.ssm.blog.service.impl;
 
-import com.liuyanzhao.ssm.blog.entity.Notice;
-import com.liuyanzhao.ssm.blog.mapper.NoticeMapper;
-import com.liuyanzhao.ssm.blog.service.NoticeService;
+import com.shy.ssm.blog.entity.Notice;
+import com.shy.ssm.blog.mapper.NoticeMapper;
+import com.shy.ssm.blog.service.NoticeService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Service
 public class NoticeServiceImpl implements NoticeService {

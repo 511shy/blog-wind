@@ -1,4 +1,4 @@
-package com.liuyanzhao.ssm.blog.entity;
+package com.shy.ssm.blog.entity;
 
 import lombok.Data;
 
@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Data
 public class Page implements Serializable{

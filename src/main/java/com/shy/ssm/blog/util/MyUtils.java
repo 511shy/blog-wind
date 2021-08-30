@@ -1,4 +1,4 @@
-package com.liuyanzhao.ssm.blog.util;
+package com.shy.ssm.blog.util;
 
 import javax.servlet.http.HttpServletRequest;
 import java.security.MessageDigest;

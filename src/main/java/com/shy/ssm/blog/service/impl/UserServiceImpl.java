@@ -1,9 +1,9 @@
-package com.liuyanzhao.ssm.blog.service.impl;
+package com.shy.ssm.blog.service.impl;
 
-import com.liuyanzhao.ssm.blog.mapper.ArticleMapper;
-import com.liuyanzhao.ssm.blog.mapper.UserMapper;
-import com.liuyanzhao.ssm.blog.entity.User;
-import com.liuyanzhao.ssm.blog.service.UserService;
+import com.shy.ssm.blog.mapper.ArticleMapper;
+import com.shy.ssm.blog.mapper.UserMapper;
+import com.shy.ssm.blog.entity.User;
+import com.shy.ssm.blog.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * 用户管理
  *
- * @author 言曌
+ * @author shy
  * @date 2017/8/24
  */
 @Service

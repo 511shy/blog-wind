@@ -1,9 +1,9 @@
-package com.liuyanzhao.ssm.blog.controller.home;
+package com.shy.ssm.blog.controller.home;
 
-import com.liuyanzhao.ssm.blog.entity.Article;
-import com.liuyanzhao.ssm.blog.entity.Notice;
-import com.liuyanzhao.ssm.blog.service.ArticleService;
-import com.liuyanzhao.ssm.blog.service.NoticeService;
+import com.shy.ssm.blog.entity.Article;
+import com.shy.ssm.blog.entity.Notice;
+import com.shy.ssm.blog.service.ArticleService;
+import com.shy.ssm.blog.service.NoticeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Controller
 public class NoticeController {

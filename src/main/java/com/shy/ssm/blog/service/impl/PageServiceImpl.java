@@ -1,8 +1,8 @@
-package com.liuyanzhao.ssm.blog.service.impl;
+package com.shy.ssm.blog.service.impl;
 
-import com.liuyanzhao.ssm.blog.entity.Page;
-import com.liuyanzhao.ssm.blog.mapper.PageMapper;
-import com.liuyanzhao.ssm.blog.service.PageService;
+import com.shy.ssm.blog.entity.Page;
+import com.shy.ssm.blog.mapper.PageMapper;
+import com.shy.ssm.blog.service.PageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @author 言曌
+ * @author shy
  * @date 2017/9/7
  */
 @Service

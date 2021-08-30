@@ -1,14 +1,14 @@
-package com.liuyanzhao.ssm.blog.interceptor;
+package com.shy.ssm.blog.interceptor;
 
-import com.liuyanzhao.ssm.blog.entity.Article;
-import com.liuyanzhao.ssm.blog.entity.Options;
+import com.shy.ssm.blog.entity.Article;
+import com.shy.ssm.blog.entity.Options;
 
-import com.liuyanzhao.ssm.blog.enums.ArticleStatus;
-import com.liuyanzhao.ssm.blog.enums.LinkStatus;
+import com.shy.ssm.blog.enums.ArticleStatus;
+import com.shy.ssm.blog.enums.LinkStatus;
 
-import com.liuyanzhao.ssm.blog.entity.Category;
-import com.liuyanzhao.ssm.blog.entity.Menu;
-import com.liuyanzhao.ssm.blog.service.*;
+import com.shy.ssm.blog.entity.Category;
+import com.shy.ssm.blog.entity.Menu;
+import com.shy.ssm.blog.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Component
 public class HomeResourceInterceptor implements HandlerInterceptor {

@@ -1,7 +1,7 @@
-package com.liuyanzhao.ssm.blog.dto;
+package com.shy.ssm.blog.dto;
 
 /**
- * @author 言曌
+ * @author shy
  * @date 2018/9/2 下午8:34
  */
 

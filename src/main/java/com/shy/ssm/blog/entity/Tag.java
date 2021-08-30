@@ -1,11 +1,11 @@
-package com.liuyanzhao.ssm.blog.entity;
+package com.shy.ssm.blog.entity;
 
 import lombok.Data;
 
 import java.io.Serializable;
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Data
 public class Tag implements Serializable{

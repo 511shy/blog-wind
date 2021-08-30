@@ -1,14 +1,14 @@
-package com.liuyanzhao.ssm.blog.controller.home;
+package com.shy.ssm.blog.controller.home;
 
 import cn.hutool.http.HtmlUtil;
-import com.liuyanzhao.ssm.blog.dto.JsonResult;
-import com.liuyanzhao.ssm.blog.entity.Article;
-import com.liuyanzhao.ssm.blog.entity.Comment;
-import com.liuyanzhao.ssm.blog.enums.ArticleStatus;
-import com.liuyanzhao.ssm.blog.enums.Role;
-import com.liuyanzhao.ssm.blog.service.ArticleService;
-import com.liuyanzhao.ssm.blog.service.CommentService;
-import com.liuyanzhao.ssm.blog.util.MyUtils;
+import com.shy.ssm.blog.dto.JsonResult;
+import com.shy.ssm.blog.entity.Article;
+import com.shy.ssm.blog.entity.Comment;
+import com.shy.ssm.blog.enums.ArticleStatus;
+import com.shy.ssm.blog.enums.Role;
+import com.shy.ssm.blog.service.ArticleService;
+import com.shy.ssm.blog.service.CommentService;
+import com.shy.ssm.blog.util.MyUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 
 /**
- * @author 言曌
+ * @author shy
  * @date 2017/9/10
  */
 

@@ -1,8 +1,8 @@
-package com.liuyanzhao.ssm.blog.service.impl;
+package com.shy.ssm.blog.service.impl;
 
-import com.liuyanzhao.ssm.blog.entity.Link;
-import com.liuyanzhao.ssm.blog.mapper.LinkMapper;
-import com.liuyanzhao.ssm.blog.service.LinkService;
+import com.shy.ssm.blog.entity.Link;
+import com.shy.ssm.blog.mapper.LinkMapper;
+import com.shy.ssm.blog.service.LinkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author 言曌
+ * @author shy
  * @date 2017/9/4
  */
 @Service

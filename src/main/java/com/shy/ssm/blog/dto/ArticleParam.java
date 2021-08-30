@@ -1,11 +1,11 @@
-package com.liuyanzhao.ssm.blog.dto;
+package com.shy.ssm.blog.dto;
 
 import lombok.Data;
 
 import java.util.List;
 
 /**
- * @author 言曌
+ * @author shy
  * @date 2018/11/25 下午3:56
  */
 @Data

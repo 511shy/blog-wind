@@ -1,8 +1,8 @@
-package com.liuyanzhao.ssm.blog.controller.admin;
+package com.shy.ssm.blog.controller.admin;
 
 
-import com.liuyanzhao.ssm.blog.entity.Link;
-import com.liuyanzhao.ssm.blog.service.LinkService;
+import com.shy.ssm.blog.entity.Link;
+import com.shy.ssm.blog.service.LinkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,7 +15,7 @@ import java.util.List;
 
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Controller
 @RequestMapping("/admin/link")

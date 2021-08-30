@@ -1,9 +1,9 @@
-package com.liuyanzhao.ssm.blog.controller.admin;
+package com.shy.ssm.blog.controller.admin;
 
 
-import com.liuyanzhao.ssm.blog.entity.Tag;
-import com.liuyanzhao.ssm.blog.service.ArticleService;
-import com.liuyanzhao.ssm.blog.service.TagService;
+import com.shy.ssm.blog.entity.Tag;
+import com.shy.ssm.blog.service.ArticleService;
+import com.shy.ssm.blog.service.TagService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,7 +15,7 @@ import java.util.List;
 
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Controller
 @RequestMapping("/admin/tag")

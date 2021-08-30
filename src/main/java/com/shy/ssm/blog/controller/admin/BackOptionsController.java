@@ -1,7 +1,7 @@
-package com.liuyanzhao.ssm.blog.controller.admin;
+package com.shy.ssm.blog.controller.admin;
 
-import com.liuyanzhao.ssm.blog.entity.Options;
-import com.liuyanzhao.ssm.blog.service.OptionsService;
+import com.shy.ssm.blog.entity.Options;
+import com.shy.ssm.blog.service.OptionsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Controller
 @RequestMapping("/admin/options")

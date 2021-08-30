@@ -1,7 +1,7 @@
-package com.liuyanzhao.ssm.blog.controller.admin;
+package com.shy.ssm.blog.controller.admin;
 
-import com.liuyanzhao.ssm.blog.dto.JsonResult;
-import com.liuyanzhao.ssm.blog.dto.UploadFileVO;
+import com.shy.ssm.blog.dto.JsonResult;
+import com.shy.ssm.blog.dto.UploadFileVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Calendar;
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Slf4j
 @RestController

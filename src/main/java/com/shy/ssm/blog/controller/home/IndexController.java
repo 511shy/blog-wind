@@ -1,13 +1,13 @@
-package com.liuyanzhao.ssm.blog.controller.home;
+package com.shy.ssm.blog.controller.home;
 import com.github.pagehelper.PageInfo;
-import com.liuyanzhao.ssm.blog.entity.Link;
+import com.shy.ssm.blog.entity.Link;
 
-import com.liuyanzhao.ssm.blog.enums.ArticleStatus;
-import com.liuyanzhao.ssm.blog.enums.LinkStatus;
-import com.liuyanzhao.ssm.blog.enums.NoticeStatus;
+import com.shy.ssm.blog.enums.ArticleStatus;
+import com.shy.ssm.blog.enums.LinkStatus;
+import com.shy.ssm.blog.enums.NoticeStatus;
 
-import com.liuyanzhao.ssm.blog.entity.*;
-import com.liuyanzhao.ssm.blog.service.*;
+import com.shy.ssm.blog.entity.*;
+import com.shy.ssm.blog.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * 用户的controller
  *
- * @author 言曌
+ * @author shy
  * @date 2017/8/24
  */
 @Controller

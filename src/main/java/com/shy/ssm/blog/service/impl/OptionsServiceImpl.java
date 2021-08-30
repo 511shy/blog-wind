@@ -1,8 +1,8 @@
-package com.liuyanzhao.ssm.blog.service.impl;
+package com.shy.ssm.blog.service.impl;
 
-import com.liuyanzhao.ssm.blog.entity.Options;
-import com.liuyanzhao.ssm.blog.mapper.OptionsMapper;
-import com.liuyanzhao.ssm.blog.service.OptionsService;
+import com.shy.ssm.blog.entity.Options;
+import com.shy.ssm.blog.mapper.OptionsMapper;
+import com.shy.ssm.blog.service.OptionsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 /**
  *
- * @author 言曌
+ * @author shy
  * @date 2017/9/7
  */
 @Service

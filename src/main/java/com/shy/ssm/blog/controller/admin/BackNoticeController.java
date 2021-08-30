@@ -1,9 +1,9 @@
-package com.liuyanzhao.ssm.blog.controller.admin;
+package com.shy.ssm.blog.controller.admin;
 
 
-import com.liuyanzhao.ssm.blog.entity.Notice;
-import com.liuyanzhao.ssm.blog.enums.NoticeStatus;
-import com.liuyanzhao.ssm.blog.service.NoticeService;
+import com.shy.ssm.blog.entity.Notice;
+import com.shy.ssm.blog.enums.NoticeStatus;
+import com.shy.ssm.blog.service.NoticeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

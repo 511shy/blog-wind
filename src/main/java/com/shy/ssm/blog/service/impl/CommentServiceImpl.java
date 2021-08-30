@@ -1,13 +1,13 @@
-package com.liuyanzhao.ssm.blog.service.impl;
+package com.shy.ssm.blog.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.liuyanzhao.ssm.blog.entity.Article;
-import com.liuyanzhao.ssm.blog.entity.Comment;
-import com.liuyanzhao.ssm.blog.enums.ArticleStatus;
-import com.liuyanzhao.ssm.blog.mapper.CommentMapper;
-import com.liuyanzhao.ssm.blog.mapper.ArticleMapper;
-import com.liuyanzhao.ssm.blog.service.CommentService;
+import com.shy.ssm.blog.entity.Article;
+import com.shy.ssm.blog.entity.Comment;
+import com.shy.ssm.blog.enums.ArticleStatus;
+import com.shy.ssm.blog.mapper.CommentMapper;
+import com.shy.ssm.blog.mapper.ArticleMapper;
+import com.shy.ssm.blog.service.CommentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @author 言曌
+ * @author shy
  * @date 2017/9/10
  */
 @Service

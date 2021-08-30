@@ -1,11 +1,11 @@
-package com.liuyanzhao.ssm.blog.service;
+package com.shy.ssm.blog.service;
 
-import com.liuyanzhao.ssm.blog.entity.Options;
+import com.shy.ssm.blog.entity.Options;
 
 
 /**
  *
- * @author 言曌
+ * @author shy
  * @date 2017/9/7
  */
 public interface OptionsService {

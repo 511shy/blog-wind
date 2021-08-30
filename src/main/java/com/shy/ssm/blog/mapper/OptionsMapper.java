@@ -1,10 +1,10 @@
-package com.liuyanzhao.ssm.blog.mapper;
+package com.shy.ssm.blog.mapper;
 
-import com.liuyanzhao.ssm.blog.entity.Options;
+import com.shy.ssm.blog.entity.Options;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Mapper
 public interface OptionsMapper {

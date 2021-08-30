@@ -1,14 +1,14 @@
-package com.liuyanzhao.ssm.blog.service;
+package com.shy.ssm.blog.service;
 
 import com.github.pagehelper.PageInfo;
-import com.liuyanzhao.ssm.blog.entity.Comment;
+import com.shy.ssm.blog.entity.Comment;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 
 /**
- * @author 言曌
+ * @author shy
  * @date 2017/9/10
  */
 @Service

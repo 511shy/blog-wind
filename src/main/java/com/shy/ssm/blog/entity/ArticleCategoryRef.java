@@ -1,4 +1,4 @@
-package com.liuyanzhao.ssm.blog.entity;
+package com.shy.ssm.blog.entity;
 
 import lombok.Data;
 
@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * 文章分类关联表
  *
- * @author liuyanzhao
+ * @author shy
  */
 @Data
 public class ArticleCategoryRef implements Serializable{

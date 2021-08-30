@@ -1,4 +1,4 @@
-package com.liuyanzhao.ssm.blog.interceptor;
+package com.shy.ssm.blog.interceptor;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -11,7 +11,7 @@ import java.io.IOException;
 
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Component
 public class SecurityInterceptor extends HandlerInterceptorAdapter {

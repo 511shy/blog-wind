@@ -1,8 +1,8 @@
-package com.liuyanzhao.ssm.blog.service.impl;
+package com.shy.ssm.blog.service.impl;
 
-import com.liuyanzhao.ssm.blog.entity.Menu;
-import com.liuyanzhao.ssm.blog.mapper.MenuMapper;
-import com.liuyanzhao.ssm.blog.service.MenuService;
+import com.shy.ssm.blog.entity.Menu;
+import com.shy.ssm.blog.mapper.MenuMapper;
+import com.shy.ssm.blog.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Service
 public class MenuServiceImpl implements MenuService {

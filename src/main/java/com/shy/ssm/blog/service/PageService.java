@@ -1,12 +1,12 @@
-package com.liuyanzhao.ssm.blog.service;
+package com.shy.ssm.blog.service;
 
-import com.liuyanzhao.ssm.blog.entity.Page;
+import com.shy.ssm.blog.entity.Page;
 
 import java.util.List;
 
 /**
  *
- * @author 言曌
+ * @author shy
  * @date 2017/9/7
  */
 public interface PageService {

@@ -1,13 +1,13 @@
-package com.liuyanzhao.ssm.blog.mapper;
+package com.shy.ssm.blog.mapper;
 
-import com.liuyanzhao.ssm.blog.entity.Page;
+import com.shy.ssm.blog.entity.Page;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Mapper
 public interface PageMapper {

@@ -1,6 +1,6 @@
-package com.liuyanzhao.ssm.blog.mapper;
+package com.shy.ssm.blog.mapper;
 
-import com.liuyanzhao.ssm.blog.entity.Comment;
+import com.shy.ssm.blog.entity.Comment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

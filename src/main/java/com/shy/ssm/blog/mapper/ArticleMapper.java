@@ -1,6 +1,6 @@
-package com.liuyanzhao.ssm.blog.mapper;
+package com.shy.ssm.blog.mapper;
 
-import com.liuyanzhao.ssm.blog.entity.Article;
+import com.shy.ssm.blog.entity.Article;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 文章Mapper
  *
- * @author liuyanzhao
+ * @author shy
  */
 @Mapper
 public interface ArticleMapper {

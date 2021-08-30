@@ -1,7 +1,7 @@
-package com.liuyanzhao.ssm.blog.controller.admin;
-import com.liuyanzhao.ssm.blog.entity.Page;
-import com.liuyanzhao.ssm.blog.enums.PageStatus;
-import com.liuyanzhao.ssm.blog.service.PageService;
+package com.shy.ssm.blog.controller.admin;
+import com.shy.ssm.blog.entity.Page;
+import com.shy.ssm.blog.enums.PageStatus;
+import com.shy.ssm.blog.service.PageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -12,7 +12,7 @@ import java.util.Objects;
 
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Controller
 @RequestMapping("/admin/page")

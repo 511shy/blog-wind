@@ -1,10 +1,10 @@
-package com.liuyanzhao.ssm.blog.controller.admin;
+package com.shy.ssm.blog.controller.admin;
 
 
-import com.liuyanzhao.ssm.blog.entity.Category;
+import com.shy.ssm.blog.entity.Category;
 
-import com.liuyanzhao.ssm.blog.service.ArticleService;
-import com.liuyanzhao.ssm.blog.service.CategoryService;
+import com.shy.ssm.blog.service.ArticleService;
+import com.shy.ssm.blog.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
@@ -18,7 +18,7 @@ import java.util.List;
 
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Controller
 @RequestMapping("/admin/category")

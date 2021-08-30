@@ -1,8 +1,8 @@
-package com.liuyanzhao.ssm.blog.mapper;
+package com.shy.ssm.blog.mapper;
 
 
-import com.liuyanzhao.ssm.blog.entity.ArticleCategoryRef;
-import com.liuyanzhao.ssm.blog.entity.Category;
+import com.shy.ssm.blog.entity.ArticleCategoryRef;
+import com.shy.ssm.blog.entity.Category;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

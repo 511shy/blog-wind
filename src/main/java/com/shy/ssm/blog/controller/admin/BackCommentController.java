@@ -1,13 +1,13 @@
-package com.liuyanzhao.ssm.blog.controller.admin;
+package com.shy.ssm.blog.controller.admin;
 
 
 import com.github.pagehelper.PageInfo;
-import com.liuyanzhao.ssm.blog.entity.Article;
-import com.liuyanzhao.ssm.blog.entity.Comment;
-import com.liuyanzhao.ssm.blog.enums.ArticleStatus;
-import com.liuyanzhao.ssm.blog.util.MyUtils;
-import com.liuyanzhao.ssm.blog.service.ArticleService;
-import com.liuyanzhao.ssm.blog.service.CommentService;
+import com.shy.ssm.blog.entity.Article;
+import com.shy.ssm.blog.entity.Comment;
+import com.shy.ssm.blog.enums.ArticleStatus;
+import com.shy.ssm.blog.util.MyUtils;
+import com.shy.ssm.blog.service.ArticleService;
+import com.shy.ssm.blog.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,7 +19,7 @@ import java.util.List;
 
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Controller
 @RequestMapping("/admin/comment")

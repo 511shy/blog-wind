@@ -1,7 +1,7 @@
-package com.liuyanzhao.ssm.blog.enums;
+package com.shy.ssm.blog.enums;
 
 /**
- * @author 言曌
+ * @author shy
  * @date 2018/11/17 下午4:47
  */
 

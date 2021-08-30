@@ -1,7 +1,7 @@
-package com.liuyanzhao.ssm.blog.service;
+package com.shy.ssm.blog.service;
 
 import com.github.pagehelper.PageInfo;
-import com.liuyanzhao.ssm.blog.entity.Article;
+import com.shy.ssm.blog.entity.Article;
 
 import java.util.HashMap;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 文章Service
  *
- * @author 言曌
+ * @author shy
  * @date 2017/8/24
  */
 public interface ArticleService {

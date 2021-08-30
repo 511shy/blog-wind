@@ -1,4 +1,4 @@
-package com.liuyanzhao.ssm.blog.entity;
+package com.shy.ssm.blog.entity;
 
 import lombok.Data;
 
@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * 文章和标签关联
  *
- * @author 言曌
+ * @author shy
  * @date 2018/11/17 下午5:20
  */
 @Data

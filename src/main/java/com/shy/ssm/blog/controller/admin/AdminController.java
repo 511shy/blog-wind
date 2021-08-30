@@ -1,11 +1,11 @@
-package com.liuyanzhao.ssm.blog.controller.admin;
+package com.shy.ssm.blog.controller.admin;
 
-import com.liuyanzhao.ssm.blog.entity.Article;
-import com.liuyanzhao.ssm.blog.entity.Comment;
-import com.liuyanzhao.ssm.blog.entity.User;
-import com.liuyanzhao.ssm.blog.service.ArticleService;
-import com.liuyanzhao.ssm.blog.service.CommentService;
-import com.liuyanzhao.ssm.blog.service.UserService;
+import com.shy.ssm.blog.entity.Article;
+import com.shy.ssm.blog.entity.Comment;
+import com.shy.ssm.blog.entity.User;
+import com.shy.ssm.blog.service.ArticleService;
+import com.shy.ssm.blog.service.CommentService;
+import com.shy.ssm.blog.service.UserService;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -23,10 +23,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.liuyanzhao.ssm.blog.util.MyUtils.getIpAddr;
+import static com.shy.ssm.blog.util.MyUtils.getIpAddr;
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Controller
 public class AdminController {

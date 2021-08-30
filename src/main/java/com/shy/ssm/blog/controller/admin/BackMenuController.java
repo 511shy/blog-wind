@@ -1,8 +1,8 @@
-package com.liuyanzhao.ssm.blog.controller.admin;
+package com.shy.ssm.blog.controller.admin;
 
-import com.liuyanzhao.ssm.blog.entity.Menu;
-import com.liuyanzhao.ssm.blog.enums.MenuLevel;
-import com.liuyanzhao.ssm.blog.service.MenuService;
+import com.shy.ssm.blog.entity.Menu;
+import com.shy.ssm.blog.enums.MenuLevel;
+import com.shy.ssm.blog.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.List;
 
 /**
- * @author liuyanzhao
+ * @author shy
  */
 @Controller
 @RequestMapping("/admin/menu")

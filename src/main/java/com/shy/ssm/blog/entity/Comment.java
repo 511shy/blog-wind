@@ -1,4 +1,4 @@
-package com.liuyanzhao.ssm.blog.entity;
+package com.shy.ssm.blog.entity;
 
 import lombok.Data;
 
@@ -7,7 +7,7 @@ import java.util.Date;
 
 /**
  * 文章评论
- * @author liuyanzhao
+ * @author shy
  */
 @Data
 public class Comment implements Serializable{

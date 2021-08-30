@@ -1,9 +1,9 @@
-package com.liuyanzhao.ssm.blog.service.impl;
+package com.shy.ssm.blog.service.impl;
 
-import com.liuyanzhao.ssm.blog.mapper.ArticleTagRefMapper;
-import com.liuyanzhao.ssm.blog.mapper.TagMapper;
-import com.liuyanzhao.ssm.blog.entity.Tag;
-import com.liuyanzhao.ssm.blog.service.TagService;
+import com.shy.ssm.blog.mapper.ArticleTagRefMapper;
+import com.shy.ssm.blog.mapper.TagMapper;
+import com.shy.ssm.blog.entity.Tag;
+import com.shy.ssm.blog.service.TagService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,7 @@ import org.springframework.transaction.interceptor.TransactionAspectSupport;
 import java.util.List;
 
 /**
- * @author 言曌
+ * @author shy
  * @date 2017/9/2
  */
 @Service

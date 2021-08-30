@@ -1,11 +1,11 @@
-package com.liuyanzhao.ssm.blog.service;
+package com.shy.ssm.blog.service;
 
-import com.liuyanzhao.ssm.blog.entity.User;
+import com.shy.ssm.blog.entity.User;
 
 import java.util.List;
 
 /**
- * @author 言曌
+ * @author shy
  * @date 2017/8/24
  */
 

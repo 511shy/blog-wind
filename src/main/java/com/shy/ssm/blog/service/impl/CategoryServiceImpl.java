@@ -1,9 +1,9 @@
-package com.liuyanzhao.ssm.blog.service.impl;
+package com.shy.ssm.blog.service.impl;
 
-import com.liuyanzhao.ssm.blog.mapper.ArticleCategoryRefMapper;
-import com.liuyanzhao.ssm.blog.mapper.CategoryMapper;
-import com.liuyanzhao.ssm.blog.entity.Category;
-import com.liuyanzhao.ssm.blog.service.CategoryService;
+import com.shy.ssm.blog.mapper.ArticleCategoryRefMapper;
+import com.shy.ssm.blog.mapper.CategoryMapper;
+import com.shy.ssm.blog.entity.Category;
+import com.shy.ssm.blog.service.CategoryService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 用户管理
  *
- * @author 言曌
+ * @author shy
  * @date 2017/8/24
  */
 @Service
